@@ -1,0 +1,148 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: whitesmoke;
+    color:black;
+   }
+   .nav-links a {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   /* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+    /* end of header */
+    .right-col{
+        text-align: center;
+        margin: 3em 1em;
+        text-decoration-color:#00bfff;
+        color: #00bfff;
+        
+    }
+    h2{
+        text-transform:uppercase ;
+        position: relative;
+        font-size: 97%;
+       font-variant: normal;
+       font-family: serif;
+    
+
+        
+    }
+    h2::before{
+        content: '';
+        position: absolute;
+        width: 3em;
+        background: #00bfff;
+        height: .1em;
+        bottom: -1em;
+        z-index: 12;
+        margin-left: 3em;
+        
+    } 
+     /* paragraph */  
+     .bg-p{
+         text-align: center;
+         position: relative;
+         font-size:xx-large;
+         font-family: serif;
+         color:#1980afd2;
+     } 
+      /* button */
+    
+    
+      
+
+      
+
+      .myButton {
+          box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+          background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+          background-color:#79bbff;
+          border-radius:8px;
+          display:inline-block;
+          cursor:pointer;
+          color:#ffffff;
+          font-family:Arial;
+          font-size:15px;
+          font-weight:bold;
+          padding:18px 48px;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #528ecc;
+      }
+      .myButton:hover {
+          background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+          background-color:#378de5;
+      }
+      .myButton:active {
+          position:relative;
+          top:1px;
+      }
+      .myBtn{
+          text-align: center;
+          padding-top: 7em;
+      }
+      
+              
