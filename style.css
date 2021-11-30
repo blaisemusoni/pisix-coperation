@@ -87,6 +87,8 @@
         font-size: 97%;
        font-variant: normal;
        font-family: serif;
+       text-align: center;
+       bottom: 2em;
     
 
         
@@ -144,5 +146,123 @@
           text-align: center;
           padding-top: 7em;
       }
+      section.authentic{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        grid-template-areas:
+         "bowl content";
+    }
+    .right-coln{
+    grid-area: content;
+     
+     text-align: left;
+     align-self: center;
+     margin-bottom: 9em;
+     
+    }
+    img{
+        grid-area: bowl;
+        background-image: url("4.jpeg");
+       width: 300px;
+       height:440px;
+       float:left;
+       margin-top: 3em;
+       margin-left: 6em;
+       border-radius: 30%;
+       top: 7em;
+    }
+    .page2{
+        top: 3em;
+        background-color:rgb(219, 238, 245);
+    }
+    #coln{
+        text-align: left;
+        margin-bottom: 1em;
+        font-weight: bolder;
+        font-style: oblique;
+        color: rgb(145, 217, 243);
+    }
+    h3::before{
+        content: '';
+        position: absolute;
+        width: 3em;
+        background: #00bfff;
+        height: .1em;
+        bottom: 0.0em;
+        z-index: 12;
+        margin-left: 0em;
+    }
+    #head1{
+        text-transform: uppercase;
+
+        text-overflow: clip;
+        font-size: xx-large;
+        font-family: serif;
+        font-weight: bolder;
+        text-decoration-style:solid;
+        font-style: oblique;
+        width: 74%;
+
+        color:rgb(2, 55, 77);
+    }
+    .parag{
+        font-size:large;
+        color: #000;
+        margin-top: 2em;
+        font-style: oblique;
+    }
+    .starup{
+        width: 330px;
+        height: 100px;
+        background-color: whitesmoke;
+        border-radius: 10%;
+        margin-top: 2em;
+        margin-left: 1em;
+
+    }
+    #image{
+        height: 52px;
+        width: 22px;
+        margin-left: 1em;
+        margin-top: -4em;
+
+    }
+    .h11{
+        text-align: center;
+        color:rgb(13, 167, 228);
+
+    }
+    .pi{
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .qwick{
+
+        width: 330px;
+        height: 100px;
+        background-color:rgb(229, 240, 249);
+        border-radius: 10%;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+    /* page3 */  
+    .heado{
+        color: rgb(148, 255, 244);
+        text-align: center;
+
+    }
+    .paragra{
+        text-align: center;
+       
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        top: 2em;
+
+    }
       
+    
+        
+    
+    
               
