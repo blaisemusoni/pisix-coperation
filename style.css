@@ -260,7 +260,135 @@
         top: 2em;
 
     }
-      
+    .card-img-top{
+        height: auto;
+        width: 91px;
+        margin-left: 2em;
+        margin-bottom: 0em;
+        right: auto;
+        border-radius: 0%;
+    }
+    .head-card{
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color:rgb(90, 216, 195);
+        text-align: left;
+    }
+    .card{
+        height: 20em ;
+        width: 10rem;
+        margin-left: 0em;
+        margin-top: 0em;
+        background-color: whitesmoke;
+        
+    }
+    .page3{
+        background-color: whitesmoke;
+   
+
+    }
+    .card2{
+        height: 20em ;
+        width: 10rem;
+        margin-left: 0em;
+        margin-top: 0em;
+        background-color: white;
+        border-radius: 3%;
+    }
+    .bg-col-cards{
+        height: 20em;
+        width: 80em;
+        background:whitesmoke;
+        margin-left: 9em;
+        margin-top: 6em;
+
+    }
+    .page3-under{
+        background-color: whitesmoke;
+    }
+    .bg-col-cards2{
+        height: 20em;
+        width: 80em;
+        background:whitesmoke;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .footer-pg3{
+        text-align: center;
+        color:rgb(21, 128, 128);
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style:normal;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 3em;
+        text-transform: uppercase;
+        
+    }
+    .footer-pg3::before{
+        content: '';
+        position:absolute;
+        width: 3em;
+        background-color: skyblue;
+        flex: unset;
+        height: 2em;
+        
+        z-index:-1em;
+        margin-left: 0em;
+    }
+/* page */ 
+.page4{
+margin-top: 4em;
+
+} 
+section.authentic1{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas:
+     "bowl content";
+}
+.right-coln2{
+grid-area: content;
+ 
+ text-align: left;
+ align-self: center;
+ margin-bottom: 9em;
+ 
+}
+img{
+    grid-area: bowl;
+    background-image: url("3.jpeg");
+   width: 300px;
+   height:440px;
+   float:left;
+   margin-top: 3em;
+   margin-left: 6em;
+   border-radius: 10%;
+   top: 7em;
+}
+#heade2{
+    text-align: left;
+    color:rgb(21, 128, 128);
+    font-size: larger;
+}
+.prag{
+    font-size: larger;
+    font-family: serif;
+    color: rgb(6, 106, 146);
+
+}
+.prg{
+    font-size: medium;
+    font-family: serif;
+    color: rgb(31, 31, 31);
+}
+.imaage{
+    margin-top: 0em;
+}
+
+
+    
+
     
         
     
